@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="section__presentation">
     <MyLineAnim1 />
     <div class="present">
       <h2 class="present__Title">Qui suis je ?</h2>
@@ -15,9 +15,16 @@
 </template>
 <script setup></script>
 <style lang="scss">
+.section__presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .present {
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
+  align-items: center;
+  width: 625px;
   &__Title {
     font-family: $primary-font;
   }

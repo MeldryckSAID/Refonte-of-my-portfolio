@@ -1,4 +1,5 @@
 <template>
+  <h1>hello world its contact</h1>
   <MyIntro />
   <MyPresentation />
   <MyCard
@@ -7,5 +8,9 @@
     image="/png/24h.png"
   />
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+h1 {
+  font-family: $primary-font;
+}
+</style>
 <script setup></script>

@@ -2,26 +2,27 @@
   <div class="intro">
     <MyWavesAnim class="intro__waves" />
     <MyLogo class="intro__logo" />
-    <MySoundAnim class="intro__sound" />
+    <MyWavesAnim class="intro__wave2" />
   </div>
 </template>
 <script setup></script>
 <style lang="scss">
 .intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   &__logo {
-    width: 369px;
+    width: 269px;
     z-index: 1;
-    
   }
   &__waves {
     position: relative;
-    width: max-content;
+    width: min-content;
     z-index: 0;
   }
-  &__sound {
-    position: relative;
-    width: max-content;
-    z-index: 0;
+  &__wave2 {
+    transform: scaleX(-1); /* Inverse horizontalement */
+    right: 0;
   }
 }
 </style>

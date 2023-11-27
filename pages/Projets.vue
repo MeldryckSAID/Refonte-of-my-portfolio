@@ -3,7 +3,9 @@
   <MyLogo :iswhite="true" />
   <div class="test">
     <MyLogo size="small" />
-    <MyLogo size="regular" />
+    <MyLogo themeColor="white" size="regular" />
+    <MyLogo size="regular" themeColor="white" />
+
     <MyLogo size="big" />
   </div>
 </template>

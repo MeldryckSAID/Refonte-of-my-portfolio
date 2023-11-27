@@ -1,7 +1,35 @@
+<!-- <script>
+import { ref, computed } from "vue";
+
+export default {
+  props: {
+    size: String,
+    
+  },
+  setup(props) {
+    const reverse = ref("black");
+
+    const toggleTheme = () => {
+      reverse.value = reverse.value === "black" ? "white" : "black";
+    };
+
+    const className = computed(() => ({
+      " -small": props.size === "small",
+      " -regular": props.size === "regular",
+      " -big": props.size === "big",
+      //inversement
+      "-black": reverse.value === "black",
+      "-white": reverse.value === "white",
+    }));
+
+    return { reverse, toggleTheme, className };
+  },
+};
+</script> -->
 <template>
   <div class="logo" :class="className" @click="toggleTheme">
     <svg
-      v-if="isBlack"
+      v-if="themeColor === 'black'"
       id="Calque_2_black"
       data-name="Calque 2"
       xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +52,7 @@
     </svg>
 
     <svg
-      v-else
+      v-else-if="themeColor === 'white'"
       id="Calque_2_white"
       data-name="Calque 2"
       xmlns="http://www.w3.org/2000/svg"
@@ -49,25 +77,23 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from "vue";
+import { ref, defineProps, computed } from "vue";
 
-const isBlack = ref(true);
-const isWhite = ref(false);
-
+const themeColor = ref("black");
 
 const toggleTheme = () => {
-  isBlack.value = !isBlack.value;
-  isWhite.value = !isWhite.value;
+  themeColor.value = themeColor.value === "black" ? "white" : "black";
 };
 
+const { size } = defineProps(["size"]);
+
 const className = computed(() => ({
-  " -small": props.size === "small",
-  " -regular": props.size === "regular",
-  " -big": props.size === "big",
+  " -small": size === "small",
+  " -regular": size === "regular",
+  " -big": size === "big",
+  "-black": themeColor.value === "black",
+  "-white": themeColor.value === "white",
 }));
-const props = defineProps({
-  size: String,
-});
 </script>
 
 <style lang="scss">
@@ -89,30 +115,36 @@ const props = defineProps({
       width: 269px;
     }
   }
-}
-.ln {
-  fill: none;
-  stroke: #fff;
-  stroke-miterlimit: 10;
-  stroke-width: 20px;
-}
 
-.fond {
-  fill: #fff;
-}
+  &.-black {
+    .ln {
+      fill: none;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+      stroke-width: 20px;
+    }
 
-.fond,
-.trait {
-  stroke: #000;
-  stroke-miterlimit: 10;
-  stroke-width: 20px;
-}
+    .fond {
+      fill: #fff;
+    }
+  }
 
-.trait {
-  fill: none;
-}
+  &.-white {
+    .trait {
+      stroke: #000;
+      stroke-miterlimit: 10;
+      stroke-width: 20px;
+    }
 
-.--white {
-  fill: #fff;
+    .trait {
+      fill: none;
+    }
+    .fond {
+      fill: #fff;
+      stroke: #000;
+      stroke-miterlimit: 10;
+      stroke-width: 20px;
+    }
+  }
 }
 </style>

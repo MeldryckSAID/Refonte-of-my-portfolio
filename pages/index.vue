@@ -3,7 +3,8 @@
   <MyPresentation />
   <MyCard
     id="1"
-    paragraphe="Ceci est un exemple de paragraphe."
+    paragraphe="Le défi 24 heures était un défie plein d'émotion incroyable et intrépide 
+    Pourrez-vous comprendre toute ça complicité  Le défi 24 heures est événement phares du département MMI Montbéliard ..."
     image="/png/24h.png"
   />
 </template>

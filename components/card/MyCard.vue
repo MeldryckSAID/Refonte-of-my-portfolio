@@ -17,7 +17,8 @@ defineProps({
 </script>
 <style lang="scss">
 .card {
-  border: 20px solid black;
+  width:1012px;
+  border: 10px solid black;
   background: red;
   &__content {
     background: aqua;

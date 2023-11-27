@@ -1,8 +1,8 @@
 <template>
   <MyIntro />
-  
+
   <MyPresentation />
-  <pre>{{ home }}</pre>
+
   <MyCard
     id="1"
     paragraphe="Le défi 24 heures était un défie plein d'émotion incroyable et intrépide 

@@ -98,7 +98,7 @@ const className = computed(() => ({
 
 <style lang="scss">
 .logo {
-  width: 100%;
+  width: fit-content;
 
   &.-small {
     svg {

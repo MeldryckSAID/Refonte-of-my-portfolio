@@ -45,7 +45,7 @@ const className = computed(() => ({
     color: $D;
   }
   &.-xl {
-    font-size: rem(48);
+    font-size: 56px;
   }
   &.-l {
     font-size: rem(24);

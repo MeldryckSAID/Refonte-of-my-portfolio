@@ -1,6 +1,8 @@
 <template>
   <MyIntro />
+  
   <MyPresentation />
+  <pre>{{ home }}</pre>
   <MyCard
     id="1"
     paragraphe="Le défi 24 heures était un défie plein d'émotion incroyable et intrépide 
@@ -9,4 +11,9 @@
   />
 </template>
 <style lang="scss"></style>
-<script setup></script>
+<script setup>
+const { client } = usePrismic();
+const { data: home } = await useAsyncData("home", () =>
+  client.getSingle("Card")
+);
+</script>

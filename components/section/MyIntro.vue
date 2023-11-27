@@ -21,7 +21,7 @@
     z-index: 0;
   }
   &__wave2 {
-    transform: scaleX(-1); /* Inverse horizontalement */
+    transform: scaleX(-1); 
     right: 0;
   }
 }

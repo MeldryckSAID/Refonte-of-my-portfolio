@@ -18,7 +18,7 @@
       <a href="https://www.linkedin.com/in/meldryck-said/">
         <MyIcon name="linkedinn"></MyIcon
       ></a>
-      <Mybutton>Mon Cv juste ici</Mybutton>
+    <a href="/static/CV_MELDRYCK_SAID.pdf" download> <Mybutton> Mon Cv juste ici</Mybutton></a>
     </div>
   </div>
 </template>

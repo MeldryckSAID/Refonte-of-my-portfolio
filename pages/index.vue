@@ -3,12 +3,9 @@
 
   <MyPresentation />
 
-  <MyCard
-    id="1"
-    paragraphe="Le défi 24 heures était un défie plein d'émotion incroyable et intrépide 
-    Pourrez-vous comprendre toute ça complicité  Le défi 24 heures est événement phares du département MMI Montbéliard ..."
-    image="/png/24h.png"
-  />
+  <MyWorks />
+  <RouterLink class="link" :to="`/Contact`"> <MyContact /> </RouterLink>
+
 </template>
 <style lang="scss"></style>
 <script setup>

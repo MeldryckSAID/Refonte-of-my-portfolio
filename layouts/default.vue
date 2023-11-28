@@ -7,7 +7,9 @@
     </div>
     <div class="cache"></div>
     <NuxtPage class="main-content" />
-    <footer></footer>
+    <footer>
+      <MyFooter />
+    </footer>
   </main>
 </template>
 <style lang="scss" scoped>

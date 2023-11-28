@@ -36,15 +36,15 @@
 }
 
 .sound:nth-child(1) {
-  animation-delay: 5s;
+  animation-delay: 1s;
 }
 
 .sound:nth-child(2) {
-  animation-delay: 5.5s;
+  animation-delay: 1.5s;
 }
 
 .sound:nth-child(3) {
-  animation-delay: 6s;
+  animation-delay: 2s;
 }
 
 @keyframes fadeIn {

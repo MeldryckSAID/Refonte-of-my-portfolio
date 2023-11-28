@@ -61,7 +61,7 @@
 .waves {
   stroke-dasharray: 600;
   stroke-dashoffset: 100;
-  animation: dash 5s linear forwards;
+  animation: dash 4s linear forwards;
 }
 
 @keyframes dash {

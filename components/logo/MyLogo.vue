@@ -33,17 +33,12 @@ export default {
       id="Calque_2_black"
       data-name="Calque 2"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 393.17 393.17"
+      viewBox="0 0 413.17 413.17"
       :class="className"
     >
       <g id="Log_fnoir">
-        <circle
-          classe="fondn"
-          id="cercle"
-          cx="196.58"
-          cy="196.58"
-          r="196.58"
-        />
+        <circle class="fondn" id="cercle" cx="196.58" cy="196.58" r="196.58" />
+
         <polyline
           id="M"
           class="ln"
@@ -133,10 +128,9 @@ const className = computed(() => ({
     .fondn {
       fill: #000000;
       stroke: #ffffff;
+      stroke-width: 8px;
       stroke-miterlimit: 10;
-      stroke-width: 20px;
     }
-
   }
 
   &.-white {

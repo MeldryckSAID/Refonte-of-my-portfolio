@@ -6,10 +6,10 @@
     <div class="footer-information">
       <div class="footer-social">
         <a href="https://github.com/MeldryckSAID"
-          ><MyIcon name="git"></MyIcon
+          ><MyIcon fill="white" name="git"></MyIcon
         ></a>
         <a href="https://www.linkedin.com/in/meldryck-said/">
-          <MyIcon name="linkedin"></MyIcon
+          <MyIcon fill="white" name="linkedin"></MyIcon
         ></a>
       </div>
       <div class="footer-coordoné">

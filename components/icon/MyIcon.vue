@@ -2,6 +2,8 @@
 import { computed } from "vue";
 import Git from "../components/icon/Git.vue";
 import Linkedin from "../components/icon/Linkedin.vue";
+import Git__black from "../components/icon/Git__black.vue";
+import Linkedin__black from "../components/icon/Linkedin__black.vue";
 
 const props = defineProps({
   name: String,
@@ -16,6 +18,10 @@ const getIcon = computed(() => {
       return Git;
     case "linkedin":
       return Linkedin;
+    case "gitn":
+      return Git__black;
+    case "linkedinn":
+      return Linkedin__black;
 
     default:
       return Linkedin;

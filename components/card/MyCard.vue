@@ -20,7 +20,7 @@ defineProps({
 <style lang="scss">
 .card {
   width: 1012px;
-
+  background-color: antiquewhite;
   margin: 10px;
   display: flex;
 

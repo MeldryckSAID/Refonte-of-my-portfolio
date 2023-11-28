@@ -37,7 +37,13 @@ export default {
       :class="className"
     >
       <g id="Log_fnoir">
-        <circle id="cercle" cx="196.58" cy="196.58" r="196.58" />
+        <circle
+          classe="fondn"
+          id="cercle"
+          cx="196.58"
+          cy="196.58"
+          r="196.58"
+        />
         <polyline
           id="M"
           class="ln"
@@ -121,12 +127,16 @@ const className = computed(() => ({
       fill: none;
       stroke: #fff;
       stroke-miterlimit: 10;
+      stroke-miterlimit: 10;
+      stroke-width: 20px;
+    }
+    .fondn {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-miterlimit: 10;
       stroke-width: 20px;
     }
 
-    .fond {
-      fill: #fff;
-    }
   }
 
   &.-white {

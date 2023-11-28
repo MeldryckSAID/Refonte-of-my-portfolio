@@ -18,6 +18,7 @@
       <a href="https://www.linkedin.com/in/meldryck-said/">
         <MyIcon name="linkedinn"></MyIcon
       ></a>
+      <Mybutton>Mon Cv juste ici</Mybutton>
     </div>
   </div>
 </template>
@@ -35,7 +36,11 @@
   .info__social {
     display: flex;
     gap: 30px;
+    a {
+      width: fit-content;
+    }
   }
 }
 </style>
+
 <script setup></script>

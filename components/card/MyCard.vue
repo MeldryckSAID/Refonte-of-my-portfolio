@@ -4,6 +4,7 @@
       <img class="card__image" :src="image" alt="" />
       <div class="card__text">
         <p class="">{{ paragraphe }}</p>
+        <Mybutton>En savoir plus</Mybutton>
       </div>
     </div>
   </div>
@@ -39,6 +40,9 @@ defineProps({
       text-align: justify;
       display: flex;
       align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 }

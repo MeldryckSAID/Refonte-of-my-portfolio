@@ -1,16 +1,7 @@
 <template>
-  <h1>hello world its contact</h1>
-  <MyIntro />
-  <MyPresentation />
-  <MyCard
-    id="1"
-    paragraphe="Ceci est un exemple de paragraphe."
-    image="/png/24h.png"
-  />
+  <MyIntroContact />
+  <MyInfo/>
+  <MyForm/>
 </template>
-<style lang="scss">
-h1 {
-  font-family: $primary-font;
-}
-</style>
+<style lang="scss"></style>
 <script setup></script>

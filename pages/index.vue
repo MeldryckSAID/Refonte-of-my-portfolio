@@ -1,11 +1,8 @@
 <template>
   <MyIntro />
   <MyPresentation />
-  <MyCard
-    id="1"
-    paragraphe="Ceci est un exemple de paragraphe."
-    image="/png/24h.png"
-  />
+  <MyWorks />
+  <RouterLink class="link" :to="`/Contact`"> <MyContact /> </RouterLink>
 </template>
 <style lang="scss"></style>
 <script setup></script>

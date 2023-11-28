@@ -1,7 +1,7 @@
 <template>
   <div class="intro">
     <MyWavesAnim class="intro__waves" />
-    <MyLogo class="intro__logo" />
+    <MyLogo size="big" class="intro__logo" />
     <MyWavesAnim class="intro__wave2" />
   </div>
 </template>
@@ -21,7 +21,7 @@
     z-index: 0;
   }
   &__wave2 {
-    transform: scaleX(-1); /* Inverse horizontalement */
+    transform: scaleX(-1); 
     right: 0;
   }
 }

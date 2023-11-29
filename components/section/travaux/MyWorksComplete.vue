@@ -68,14 +68,14 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .section_travaux {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .works {
-  position: absolute;
+  position: relative;
   z-index: 2;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -83,9 +83,9 @@
 
 .sous {
   z-index: 1;
-  position: relative;
+  position: absolute;
   margin-top: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 </style>
 

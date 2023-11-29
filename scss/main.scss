@@ -1,3 +1,8 @@
-@import '../scss/foundation/_reset.scss';
-@import '../scss/foundation/_variables.scss';
+@import "../scss/foundation/_reset.scss";
+@import "../scss/foundation/_variables.scss";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

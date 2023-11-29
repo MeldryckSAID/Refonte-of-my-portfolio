@@ -1,6 +1,17 @@
 <template>
+  <nuxt-link
+    :to="to"
+    v-if="to"
+    class="button"
+    @mouseover="hoverEffect(true)"
+    @mouseout="hoverEffect(false)"
+    :class="className"
+  >
+    <slot></slot>
+  </nuxt-link>
   <button
-    class="button tcolor"
+    v-else
+    class="button"
     :class="className"
     @mouseover="hoverEffect(true)"
     @mouseout="hoverEffect(false)"
@@ -41,6 +52,10 @@
 </style>
 
 <script setup>
+const props = defineProps({
+  to: String,
+});
+
 const hoverEffect = (isHovered) => {
   const button = document.querySelector(".button");
   if (button) {

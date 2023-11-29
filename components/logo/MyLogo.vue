@@ -101,6 +101,8 @@ const className = computed(() => ({
 .logo {
   width: fit-content;
 
+  cursor: pointer;
+
   &.-small {
     svg {
       width: 98px;

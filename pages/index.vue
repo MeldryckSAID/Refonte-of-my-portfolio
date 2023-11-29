@@ -4,13 +4,10 @@
   <MyPresentation />
 
   <MyWorks />
-  <RouterLink class="link" :to="`/Contact`"> <MyContact /> </RouterLink>
 
+  <MyContact />
+
+  <MyTechUse />
 </template>
-<style lang="scss"></style>
-<script setup>
-const { client } = usePrismic();
-const { data: home } = await useAsyncData("home", () =>
-  client.getSingle("Card")
-);
-</script>
+<style lang="scss" scoped></style>
+

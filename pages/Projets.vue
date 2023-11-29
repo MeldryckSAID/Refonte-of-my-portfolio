@@ -1,13 +1,6 @@
 <template>
-  <h1>hello world its projet</h1>
-  <MyLogo :iswhite="true" />
-  <div class="test">
-    <MyLogo size="small" />
-    <MyLogo themeColor="white" size="regular" />
-    <MyLogo size="regular" themeColor="white" />
-
-    <MyLogo size="big" />
-  </div>
+  <MyIntroTravaux>Mes travaux</MyIntroTravaux>
+  <MyWorksComplete />
 </template>
 <style lang="scss">
 h1 {

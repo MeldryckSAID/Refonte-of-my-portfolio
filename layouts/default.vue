@@ -1,42 +1,47 @@
 <template>
-  <main class="layout">
+  <div class="app">
     <div class="header" :class="{ 'header--fixed': isHeaderFixed }">
       <header class="layout__header">
         <MyHeader />
       </header>
     </div>
-    <div class="cache"></div>
-    <NuxtPage class="main-content" />
+    <div class="main-content">
+      <NuxtPage />
+    </div>
     <footer>
       <MyFooter />
     </footer>
-  </main>
+  </div>
 </template>
+
 <style lang="scss" scoped>
-.layout {
+.app {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+
 }
 
-.cache {
-  width: 30px;
-  height: 132px;
-}
-.main-content {
-  margin-top: 10%;
-}
 .header {
   width: 100%;
   position: fixed;
-  padding-top: 10px;
   top: 0;
   background-color: $L;
   z-index: 1000;
+  transition: background-color 0.3s; 
 }
 
 .header--fixed {
-  position: fixed;
-  background-color: $L;
+  background-color: $L; 
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 10%; 
+}
+
+footer {
+  margin-top: auto; 
 }
 </style>
 

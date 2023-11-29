@@ -22,6 +22,7 @@
           paragraphe="Le défi 24 heures était un défi plein d'émotion incroyable et intrépide 
         Pourrez-vous comprendre toute cette complicité ? Le défi 24 heures est un événement phare du département MMI Montbéliard ..."
           image="/png/24h.png"
+          buttonLink="/"
         />
       </div>
       <div class="section_travaux--3">
@@ -48,7 +49,7 @@
       <div class="section_travaux--5">
         <MyCard
           id="2"
-           titre="Time2Match"
+          titre="Time2Match"
           paragraphe="Lors de ce projet nous avions pour ambitions de connecter les sportifs et 
           le sport organiser c'est ce que 
           nous avons fait en leurs apportant Time2match qui leur permettront de mieux 

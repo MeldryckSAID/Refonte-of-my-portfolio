@@ -1,10 +1,20 @@
 <template>
+  <nuxt-link
+    :to="to"
+    v-if="to"
+    class="button tcolor"
+    @mouseover="hoverEffect(true)"
+    @mouseout="hoverEffect(false)"
+    :class="className"
+  >
+    <slot></slot>
+  </nuxt-link>
   <button
+    v-else
     class="button tcolor"
     :class="className"
     @mouseover="hoverEffect(true)"
     @mouseout="hoverEffect(false)"
-    @click="redirectToPage"
   >
     <slot></slot>
   </button>
@@ -42,16 +52,14 @@
 </style>
 
 <script setup>
+const props = defineProps({
+  to: String,
+});
+
 const hoverEffect = (isHovered) => {
   const button = document.querySelector(".button");
   if (button) {
     button.style.backgroundPosition = isHovered ? "100% 0" : "0% 0";
-  }
-};
-
-const redirectToPage = () => {
-  if (props.routerLink && props.router) {
-    props.router.push(props.routerLink);
   }
 };
 </script>

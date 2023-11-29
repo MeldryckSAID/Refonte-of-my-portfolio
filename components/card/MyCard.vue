@@ -5,7 +5,7 @@
       <div class="card__text">
         <MyTitle el="h5" size="medium">{{ titre }}</MyTitle>
         <p class="">{{ paragraphe }}</p>
-        <Mybutton :routerLink="buttonLink">En savoir plus</Mybutton>
+        <Mybutton :to="buttonLink"> En savoir plus </Mybutton>
       </div>
     </div>
   </div>
@@ -23,13 +23,13 @@ defineProps({
 <style lang="scss">
 .card {
   width: 1012px;
-  background-color: antiquewhite;
-  margin: 10px;
+  background-color: $L;
+  margin: 30px;
   display: flex;
 
   &__content {
     display: flex;
-    border: 10px solid black;
+    border: 5px solid black;
     &.--reversed {
       flex-direction: row-reverse;
     }

@@ -3,7 +3,7 @@ import { computed } from "vue";
 import figma from "../components/tech/figma.vue";
 import adobe_aftereffects from "../components/tech/adobe_aftereffects.vue";
 import adobe_illustrator from "../components/tech/adobe_illustrator.vue";
-import adobe_photoshop from "../components/tech/adobephotoshop.vue";
+import adobe_photoshop from "../components/tech/adobe_photoshop.vue";
 import css3 from "../components/tech/css3.vue";
 import html from "../components/tech/html.vue";
 import indesign from "../components/tech/indesign.vue";
@@ -12,6 +12,9 @@ import nodejs from "../components/tech/nodejs.vue";
 import Nuxtjs from "../components/tech/Nuxtjs.vue";
 import vuejs from "../components/tech/vuejs.vue";
 import wordpress from "../components/tech/wordpress.vue";
+import firebase from "../components/tech/firebase.vue";
+import supabase from "../components/tech/supabase.vue";
+import tailwind from "../components/tech/tailwind.vue";
 
 const props = defineProps({
   name: String,
@@ -41,8 +44,14 @@ const getTech = computed(() => {
       return Nuxtjs;
     case "vue":
       return vuejs;
-    case "wordpress":
+    case "wp":
       return wordpress;
+    case "firebase":
+      return firebase;
+    case "supa":
+      return supabase;
+    case "tail":
+      return tailwind;
 
     default:
       return figma;

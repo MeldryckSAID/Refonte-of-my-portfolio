@@ -31,6 +31,7 @@
   <MyTitle el="h4" size="large">
     <h4 class="intro__section">L'harmonie</h4>
   </MyTitle>
+
   <div class="img__harmonie">
     <img class="cover" src="/png/24H/Couverture.png" alt="Logo du 24H" />
     <img class="cover" src="/png/24H/Logo24.png" alt="Logo du 24H variant" />
@@ -41,7 +42,28 @@
       alt="Logo du 24H variant"
     />
   </div>
+
+  <MyTitle el="h4" size="large">
+    <h4 class="intro__section">Les technologies utilisées</h4>
+  </MyTitle>
+
+  <div class="tech">
+    <MyTech name="ai" class="tech-item1" />
+    <MyTech name="html" class="tech-item2" />
+    <MyTech name="css" class="tech-item3" />
+    <MyTech name="firebase" class="tech-item4" />
+    <MyTech name="vue" class="tech-item5" />
+    <MyTech name="js" class="tech-item6" />
+    <MyTech name="figma" class="tech-item7" />
+    <MyTech name="tail" class="tech-item8" />
+  </div>
+
+  <MyTitle el="h4" size="large">
+    <h4 class="intro__section">Une petite visite ?</h4>
+  </MyTitle>
+  <MyVisite24/>
 </template>
+
 <script setup></script>
 <style lang="scss">
 .img__descriptif {
@@ -72,10 +94,17 @@
 }
 .img__harmonie {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   .cover {
     width: 100%;
     margin: 0;
   }
+}
+.tech {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr); /* Trois lignes maintenant */
+  gap: 10px;
+  justify-items: center;
 }
 </style>

@@ -2,7 +2,7 @@
   <nuxt-link
     :to="to"
     v-if="to"
-    class="button tcolor"
+    class="button"
     @mouseover="hoverEffect(true)"
     @mouseout="hoverEffect(false)"
     :class="className"
@@ -11,7 +11,7 @@
   </nuxt-link>
   <button
     v-else
-    class="button tcolor"
+    class="button"
     :class="className"
     @mouseover="hoverEffect(true)"
     @mouseout="hoverEffect(false)"

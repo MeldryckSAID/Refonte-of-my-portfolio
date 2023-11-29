@@ -2,7 +2,7 @@
   <MyIntro />
   <MyPresentation />
   <MyWorks />
-  <MyContact/>
+  <MyContact />
 </template>
 <style lang="scss"></style>
 <script setup></script>

@@ -12,7 +12,7 @@
           la diversité des talents présentés lors de cette exposition."
           image="/png/expo.png"
           :isReversed="true"
-          buttonLink="/Contact"
+          buttonLink="/Projets/Expo"
         />
       </div>
       <div class="section_travaux--2">
@@ -22,7 +22,7 @@
           paragraphe="Le défi 24 heures était un défi plein d'émotion incroyable et intrépide 
         Pourrez-vous comprendre toute cette complicité ? Le défi 24 heures est un événement phare du département MMI Montbéliard ..."
           image="/png/24h.png"
-          buttonLink="/"
+          buttonLink="/Projets/24h"
         />
       </div>
       <div class="section_travaux--3">
@@ -33,6 +33,7 @@
           laisser nous vous montrez comment vous allez etre convaincu..."
           image="/png/mobile.png"
           :isReversed="true"
+          buttonLink="/Projets/mobile"
         />
       </div>
       <div class="section_travaux--4">
@@ -44,6 +45,7 @@
           un lien entre les humains, la nature et la technologie. ..."
           image="/png/rosace.png"
           :isReversed="false"
+          buttonLink="/Projets/osaka"
         />
       </div>
       <div class="section_travaux--5">
@@ -56,6 +58,7 @@
           s'organiser pour leurs séances de sport collectif"
           image="/png/T2M.png"
           :isReversed="true"
+          buttonLink="/Projets/T2M"
         />
       </div>
     </div>

@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
 .header {
@@ -27,20 +28,20 @@
   top: 0;
   background-color: $L;
   z-index: 1000;
-  transition: background-color 0.3s; /* Optionnel : ajouter un effet de transition en douceur */
+  transition: background-color 0.3s; 
 }
 
 .header--fixed {
-  background-color: $L; /* Appliquer une couleur de fond différente lorsque fixé si nécessaire */
+  background-color: $L; 
 }
 
 .main-content {
   flex: 1;
-  margin-top: 10%; /* Ajustez selon vos besoins */
+  margin-top: 10%; 
 }
 
 footer {
-  margin-top: auto; /* Poussez le pied de page vers le bas du conteneur */
+  margin-top: auto; 
 }
 </style>
 

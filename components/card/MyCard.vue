@@ -3,8 +3,9 @@
     <div class="card__content" :class="{ '--reversed': isReversed }">
       <img class="card__image" :src="image" alt="" />
       <div class="card__text">
+        <MyTitle el="h5" size="medium">{{ titre }}</MyTitle>
         <p class="">{{ paragraphe }}</p>
-        <Mybutton>En savoir plus</Mybutton>
+        <Mybutton :routerLink="buttonLink">En savoir plus</Mybutton>
       </div>
     </div>
   </div>
@@ -13,8 +14,10 @@
 defineProps({
   id: Number,
   paragraphe: String,
+  titre: String,
   image: String,
   isReversed: Boolean,
+  buttonLink: String,
 });
 </script>
 <style lang="scss">

@@ -1,19 +1,22 @@
 <template>
-  <div class="contact">
-    <div class="contact__content">
-      <MyLogo size="small" />
-      <MyTitle el="h3" size="large">
-        <h2 class="contact__title">Contactez Moi</h2>
-      </MyTitle>
-      <MyLogo size="small" />
+  <RouterLink class="contact" :to="`/Contact`">
+    <div class="">
+      <div class="contact__content">
+        <MyLogo size="small" />
+        <MyTitle el="h3" size="large">
+          <h2 class="contact__title">Contactez Moi</h2>
+        </MyTitle>
+        <MyLogo size="small" />
+      </div>
     </div>
-  </div>
+  </RouterLink>
 </template>
 <style lang="scss">
 .contact {
   display: flex;
   justify-content: center;
   margin-top: 10%;
+  text-decoration: none;
   &__content {
     background-color: $D;
     display: flex;

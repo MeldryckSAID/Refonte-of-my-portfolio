@@ -2,7 +2,7 @@
   <MyIntro />
   <MyPresentation />
   <MyWorks />
-  <RouterLink class="link" :to="`/Contact`"> <MyContact /> </RouterLink>
+  <MyContact/>
 </template>
 <style lang="scss"></style>
 <script setup></script>

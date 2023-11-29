@@ -4,6 +4,7 @@
     :class="className"
     @mouseover="hoverEffect(true)"
     @mouseout="hoverEffect(false)"
+    @click="redirectToPage"
   >
     <slot></slot>
   </button>
@@ -45,6 +46,12 @@ const hoverEffect = (isHovered) => {
   const button = document.querySelector(".button");
   if (button) {
     button.style.backgroundPosition = isHovered ? "100% 0" : "0% 0";
+  }
+};
+
+const redirectToPage = () => {
+  if (props.routerLink && props.router) {
+    props.router.push(props.routerLink);
   }
 };
 </script>

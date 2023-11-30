@@ -98,7 +98,7 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup scoped></script>
 <style lang="scss">
 .img__descriptif {
   margin-bottom: 5%;

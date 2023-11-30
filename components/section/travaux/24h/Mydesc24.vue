@@ -4,8 +4,8 @@
   </MyTitle>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/24H/24h arr.png" alt="Logo du 24H" />
-      <img src="/png/24H/24h w.png" alt="Logo du 24H variant" />
+      <img src="/png/24H/Logo_24_blue.png" alt="Logo du 24H" />
+      <img src="/png/24H/Logo_24_white.png" alt="Logo du 24H variant" />
     </div>
     <div class="text__descriptif">
       <p class="text">
@@ -61,7 +61,12 @@
   <MyTitle el="h4" size="large">
     <h4 class="intro__section">Une petite visite ?</h4>
   </MyTitle>
-  <MyVisite24/>
+
+  <div class="visite">
+    <MyVisite24MaquettePc>Visiter la maquette pc</MyVisite24MaquettePc>
+    <MyVisite24MaquetteM>Visiter la maquette mobile</MyVisite24MaquetteM>
+    <MyVisite24>Visiter le site</MyVisite24>
+  </div>
 </template>
 
 <script setup></script>

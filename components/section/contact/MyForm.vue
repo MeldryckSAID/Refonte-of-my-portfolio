@@ -91,14 +91,16 @@
 }
 .form_input {
   margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
   border: 2px solid $D;
-  padding-bottom: 0.5rem;
+  border-radius: rem(15);
   text-align: justify;
   text-align: start;
   font-family: $secondary-font;
   font-size: 20px;
+
   &::placeholder {
-    text-align: center;
+    text-align: start;
     font-family: $secondary-font;
     font-size: 20px;
     font-weight: 800;
@@ -106,13 +108,14 @@
 }
 .form_select {
   margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
   border: 2px solid $D;
-  padding-bottom: 0.5rem;
+  border-radius: rem(15);
   font-family: $secondary-font;
   font-size: 20px;
-  width: 279px;
+  width: 301px;
   &::placeholder {
-    text-align: center;
+    text-align: start;
     font-family: $secondary-font;
     font-size: 20px;
     font-weight: 400;
@@ -131,8 +134,9 @@
   font-weight: 500;
   flex-shrink: 0;
   border: 2px solid $D;
+  border-radius: rem(15);
   &::placeholder {
-    text-align: center;
+    text-align: start;
     font-family: $secondary-font;
     font-size: 20px;
     font-weight: 800;

@@ -15,6 +15,11 @@ import wordpress from "../components/tech/wordpress.vue";
 import firebase from "../components/tech/firebase.vue";
 import supabase from "../components/tech/supabase.vue";
 import tailwind from "../components/tech/tailwind.vue";
+import threejs from "../components/tech/threejs.vue";
+import unreal from "../components/tech/unreal.vue";
+import vercel from "../components/tech/vercel.vue";
+import blender from "../components/tech/blender.vue";
+import dddsmax from "../components/tech/dddsmax.vue";
 
 const props = defineProps({
   name: String,
@@ -52,6 +57,16 @@ const getTech = computed(() => {
       return supabase;
     case "tail":
       return tailwind;
+    case "unreal":
+      return unreal;
+    case "max":
+      return dddsmax;
+    case "three":
+      return threejs;
+    case "vercel":
+      return vercel;
+    case "blender":
+      return blender;
 
     default:
       return figma;

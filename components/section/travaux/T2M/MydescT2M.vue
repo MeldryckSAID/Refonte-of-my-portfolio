@@ -4,20 +4,15 @@
   </MyTitle>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/24H/Logo_24_blue.png" alt="Logo du 24H" />
-      <img src="/png/24H/Logo_24_white.png" alt="Logo du 24H variant" />
+      <img src="/png/T2M/T2M_logo.png" alt="Logo du T2M" />
     </div>
-
     <div class="text__descriptif">
       <MyLineAnim1 />
       <p class="text">
-        Le défi 24 heures était un défi plein d'émotion incroyable et intrépide
-        fait pour les plus intépides , les plus studieux des étudiants de notre
-        formation. Le défi 24 heures est un événement phare du département MMI
-        Montbéliard qui reuni toutes les promotions présente de la formations, a
-        l'occasion des 25 ans du départements cette fois ci il a été ouvert aux
-        anciens leurs permettants de revenir vivre les années de leurs
-        jeunesses.
+        Lors de ce projet nous avions pour ambitions de connecter les sportifs
+        et le sport organiser c'est ce que nous avons fait en leurs apportant
+        Time2match qui leur permettront de mieux s'organiser pour leurs séances
+        de sport collectif
       </p>
       <MyLineAnim2 />
     </div>
@@ -27,7 +22,11 @@
   </MyTitle>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
-    <img src="/png/24H/Moodboard24.png" alt="Moodboard du projets" />
+    <img
+      class="mood-img"
+      src="/png/T2M/Moodboard.png"
+      alt="Moodboard du projet Time2Match"
+    />
     <MyWorksAnim2 class="visu2" />
   </div>
 
@@ -36,14 +35,13 @@
   </MyTitle>
 
   <div class="img__harmonie">
-    <img class="cover" src="/png/24H/Couverture.png" alt="Logo du 24H" />
-    <img class="cover" src="/png/24H/Logo24.png" alt="Logo du 24H variant" />
-    <img class="cover" src="/png/24H/Couleurs.png" alt="Logo du 24H variant" />
+    <img class="cover" src="/png/T2M/Couverture.png" alt="Logo du T2M" />
     <img
       class="cover"
-      src="/png/24H/Typographie.png"
-      alt="Logo du 24H variant"
+      src="/png/T2M/Typographies.png"
+      alt="Logo du T2M variant"
     />
+    <img class="cover" src="/png/T2M/Couleurs.png" alt="Logo du T2M variant" />
   </div>
 
   <MyTitle el="h4" size="large">
@@ -51,7 +49,7 @@
   </MyTitle>
 
   <div class="tech">
-    <MyTech name="ai" class="tech-item1" />
+    
     <MyTech name="html" class="tech-item2" />
     <MyTech name="css" class="tech-item3" />
     <MyTech name="firebase" class="tech-item4" />
@@ -66,9 +64,8 @@
   </MyTitle>
 
   <div class="visite">
-    <MyVisite24MaquettePc>Visiter la maquette pc</MyVisite24MaquettePc>
-    <MyVisite24MaquetteM>Visiter la maquette mobile</MyVisite24MaquetteM>
-    <MyVisite24>Visiter le site</MyVisite24>
+    <MyVisiteT2MMaquettePc>Visiter la maquette pc</MyVisiteT2MMaquettePc>
+    <MyVisiteT2M>Visiter le site</MyVisiteT2M>
   </div>
 </template>
 
@@ -84,6 +81,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  &-img {
+    width: 50%;
+  }
 }
 .visu1 {
   transform: scaleX(-1);

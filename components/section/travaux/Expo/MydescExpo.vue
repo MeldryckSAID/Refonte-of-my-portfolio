@@ -33,7 +33,7 @@
     <MyWorksAnim2 class="visu1" />
     <img
       class="mood-img"
-      src="/png/T2M/MoodboardMMi.png"
+      src="/png/Expo/MoodboardMMi.png"
       alt="Moodboard du projets"
     />
     <MyWorksAnim2 class="visu2" />
@@ -46,23 +46,23 @@
   <div class="img__harmonie">
     <img
       class="cover"
-      src="/png/T2M/Guide.png"
+      src="/png/Expo/Guide.png"
       alt="Guide de style de l'exposition Artisitique de MMI MONTbéliard"
     />
-    <img class="cover" src="/png/T2M/Logo.png" alt="Le logo et son concept" />
+    <img class="cover" src="/png/Expo/Logo.png" alt="Le logo et son concept" />
     <img
       class="cover"
-      src="/png/T2M/Couleurs.png"
+      src="/png/Expo/Couleurs.png"
       alt="Les couleurs choisi pour aborder notre thématique"
     />
     <img
       class="cover"
-      src="/png/T2M/Typographie.png"
+      src="/png/Expo/Typographie.png"
       alt="Typographie pour sublimer notre style"
     />
     <img
       class="cover"
-      src="/png/T2M/Styles.png"
+      src="/png/Expo/Styles.png"
       alt="Les styles génériques qui seront utilisé pour le site"
     />
   </div>

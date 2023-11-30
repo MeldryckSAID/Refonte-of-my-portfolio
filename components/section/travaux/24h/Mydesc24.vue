@@ -70,7 +70,7 @@
 </template>
 
 <script setup></script>
-<style lang="scss">
+<style lang="scss" >
 .img__descriptif {
   margin-bottom: 5%;
   display: flex;

@@ -69,7 +69,7 @@
     <h4 class="intro__section">Les technologies utilisées</h4>
   </MyTitle>
 
-  <div class="tech">
+  <div class="techno__use">
     <MyTech name="ai" class="tech-item1" />
     <MyTech name="indi" class="tech-item2" />
     <MyTech name="figma" class="tech-item3" />
@@ -87,7 +87,7 @@
 </template>
 
 <script setup></script>
-<style lang="scss">
+<style lang="scss" >
 .img__descriptif {
   margin-bottom: 5%;
   display: flex;
@@ -126,7 +126,7 @@
     margin: 0;
   }
 }
-.tech {
+.techno__use {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;

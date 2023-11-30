@@ -43,8 +43,8 @@
           />
         </div>
         <div class="mb-4 flex flex-col">
-          <label class="">Vous êtes un(e) :</label>
           <select
+            class="form_select"
             name="Type"
             v-model="selectedOption"
             required
@@ -52,7 +52,7 @@
             @focus="addShadow"
             @blur="removeShadow"
           >
-            <option class="" value="" disabled selected>
+            <option class="" value="option" disabled selected>
               Choisissez une option
             </option>
             <option class="" value="particulier">Particulier</option>
@@ -104,6 +104,20 @@
     font-weight: 800;
   }
 }
+.form_select {
+  margin-bottom: 1.5rem;
+  border: 2px solid $D;
+  padding-bottom: 0.5rem;
+  font-family: $secondary-font;
+  font-size: 20px;
+  width: 279px;
+  &::placeholder {
+    text-align: center;
+    font-family: $secondary-font;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
 .message {
   display: flex;
   justify-content: center;
@@ -130,16 +144,16 @@
 .form__button {
   display: flex;
   justify-content: center;
-    .buttof{
-        border: none;
-    }
+  .buttof {
+    border: none;
+  }
 }
 </style>
 
 <script setup>
 import { ref } from "vue";
 
-const selectedOption = ref("particulier");
+const selectedOption = ref("option");
 
 const isInputFilled = (input) => {
   return input !== "";

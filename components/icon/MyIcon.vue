@@ -58,8 +58,6 @@ const className = computed(() => ({
 <style lang="scss" scoped>
 .icon {
   align-items: center;
-  border-radius: 100%;
-  box-shadow: 0 0 rem(5) 0 $L;
   display: inline-flex;
   height: rem(50);
   justify-content: center;

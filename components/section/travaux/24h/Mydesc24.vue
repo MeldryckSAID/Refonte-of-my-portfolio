@@ -4,10 +4,12 @@
   </MyTitle>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/24H/24h arr.png" alt="Logo du 24H" />
-      <img src="/png/24H/24h w.png" alt="Logo du 24H variant" />
+      <img src="/png/24H/Logo_24_blue.png" alt="Logo du 24H" />
+      <img src="/png/24H/Logo_24_white.png" alt="Logo du 24H variant" />
     </div>
+
     <div class="text__descriptif">
+      <MyLineAnim1 />
       <p class="text">
         Le défi 24 heures était un défi plein d'émotion incroyable et intrépide
         fait pour les plus intépides , les plus studieux des étudiants de notre
@@ -17,6 +19,7 @@
         anciens leurs permettants de revenir vivre les années de leurs
         jeunesses.
       </p>
+      <MyLineAnim2 />
     </div>
   </div>
   <MyTitle el="h4" size="large">
@@ -61,7 +64,12 @@
   <MyTitle el="h4" size="large">
     <h4 class="intro__section">Une petite visite ?</h4>
   </MyTitle>
-  <MyVisite24/>
+
+  <div class="visite">
+    <MyVisite24MaquettePc>Visiter la maquette pc</MyVisite24MaquettePc>
+    <MyVisite24MaquetteM>Visiter la maquette mobile</MyVisite24MaquetteM>
+    <MyVisite24>Visiter le site</MyVisite24>
+  </div>
 </template>
 
 <script setup></script>
@@ -83,6 +91,7 @@
 .text__descriptif {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .text {
   font-family: $secondary-font;

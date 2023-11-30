@@ -54,13 +54,20 @@
         <MyWorksAnim2 :isReversed="true" class="visu2" />
       </div>
     </div>
+    <div class="more">
+      <Mybutton to="/Projets">Voir tout les projet</Mybutton>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+.more,
 .intro__title {
   display: flex;
   justify-content: center;
+}
+.more{
+  margin-bottom: 20px;
 }
 .travaux__grid {
   display: grid;

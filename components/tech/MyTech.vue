@@ -4,6 +4,8 @@ import figma from "../components/tech/figma.vue";
 import adobe_aftereffects from "../components/tech/adobe_aftereffects.vue";
 import adobe_illustrator from "../components/tech/adobe_illustrator.vue";
 import adobe_photoshop from "../components/tech/adobe_photoshop.vue";
+import adobe_premiere from "../components/tech/adobe_premiere.vue";
+import Davinci from "../components/tech/Davinci.vue";
 import css3 from "../components/tech/css3.vue";
 import html from "../components/tech/html.vue";
 import indesign from "../components/tech/indesign.vue";
@@ -15,6 +17,11 @@ import wordpress from "../components/tech/wordpress.vue";
 import firebase from "../components/tech/firebase.vue";
 import supabase from "../components/tech/supabase.vue";
 import tailwind from "../components/tech/tailwind.vue";
+import threejs from "../components/tech/threejs.vue";
+import unreal from "../components/tech/unreal.vue";
+import vercel from "../components/tech/vercel.vue";
+import blender from "../components/tech/blender.vue";
+import dddsmax from "../components/tech/dddsmax.vue";
 
 const props = defineProps({
   name: String,
@@ -26,6 +33,8 @@ const getTech = computed(() => {
       return figma;
     case "ae":
       return adobe_aftereffects;
+    case "pr":
+      return adobe_premiere;
     case "ai":
       return adobe_illustrator;
     case "ap":
@@ -52,6 +61,18 @@ const getTech = computed(() => {
       return supabase;
     case "tail":
       return tailwind;
+    case "unreal":
+      return unreal;
+    case "max":
+      return dddsmax;
+    case "three":
+      return threejs;
+    case "vercel":
+      return vercel;
+    case "blender":
+      return blender;
+    case "davinci":
+      return Davinci;
 
     default:
       return figma;

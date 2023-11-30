@@ -1,5 +1,6 @@
 <template>
-    <MyIntroTravaux>Osaka</MyIntroTravaux>
+  <MyIntroTravaux>Osaka</MyIntroTravaux>
+  <MydescO />
 </template>
 <script setup></script>
 <style lang="scss"></style>

@@ -90,6 +90,7 @@
   justify-items: center;
 }
 .form_input {
+
   margin-bottom: 1.5rem;
   padding-left: 1.5rem;
   border: 2px solid $D;
@@ -129,6 +130,7 @@
 .myTextArea {
   width: 614px;
   height: 218.161px;
+  padding-left: 1.5rem;
   font-family: $secondary-font;
   font-size: 14px;
   font-weight: 500;
@@ -142,9 +144,7 @@
     font-weight: 800;
   }
 }
-.shadow {
-  box-shadow: inset 0 0 0 2px rgba(123, 255, 97, 0.5), 0 0 8px rgba($D, 0.5);
-}
+
 .form__button {
   display: flex;
   justify-content: center;

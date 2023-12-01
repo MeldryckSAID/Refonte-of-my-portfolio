@@ -16,11 +16,13 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom:20px;
-  border-bottom: 2px solid $D
+  border-bottom: 2px solid $D;
+  padding: 10px;
 }
 .header-link {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .Logo_header {

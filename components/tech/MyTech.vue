@@ -5,7 +5,7 @@ import adobe_aftereffects from "../components/tech/adobe_aftereffects.vue";
 import adobe_illustrator from "../components/tech/adobe_illustrator.vue";
 import adobe_photoshop from "../components/tech/adobe_photoshop.vue";
 import adobe_premiere from "../components/tech/adobe_premiere.vue";
-import Davinci from "../components/tech/Davinci.vue";
+import Davinci from "../components/tech/DaVinci.vue";
 import css3 from "../components/tech/css3.vue";
 import html from "../components/tech/html.vue";
 import indesign from "../components/tech/indesign.vue";

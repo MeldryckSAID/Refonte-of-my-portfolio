@@ -10,7 +10,7 @@
           stéréotype du 'geek'. Cet événement artistique a été conçu pour démontrer que les 
           compétences des étudiants ne se limitent pas à l'informatique. Nous vous invitons à découvrir par vous-même 
           la diversité des talents présentés lors de cette exposition."
-          image="/png/expo.png"
+          image="/png/Expo.png"
           :isReversed="true"
           buttonLink="/Projets/Expo"
         />

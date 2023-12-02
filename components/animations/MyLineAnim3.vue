@@ -29,7 +29,6 @@ defineProps({
   stroke-dasharray: 800;
   stroke-dashoffset: 100;
   animation: dash 5s linear infinite;
-  
 }
 .reversed {
   transform: scaleX(-1);
@@ -41,6 +40,15 @@ defineProps({
   }
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  svg {
+    stroke-width: 20;
+  }
+  .animchill {
+    width: 70%;
   }
 }
 </style>

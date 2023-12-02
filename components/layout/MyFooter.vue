@@ -111,6 +111,90 @@
     color: $L;
   }
 }
+
+@media screen and (max-width: 1023px) {
+
+  
+  .footer__content {
+    height: auto;
+    background-color: $D;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 18%;
+  }
+  .link {
+    color: $L;
+    font-family: $secondary-font;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    gap: 25px;
+    position: relative;
+  }
+
+  .link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(50%);
+    width: 0%;
+    height: 4px;
+    background-color: $L;
+    color: $L;
+    transition: width 0.3s ease-out, left 0.3s ease-out;
+  }
+
+  .link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 4px;
+    background-color: $L;
+    color: $D;
+    transition: width 0.3s ease-out, right 0.3s ease-out;
+  }
+
+  .link:hover::after {
+    width: 50%;
+    left: 0%;
+  }
+
+  .link:hover::before {
+    width: 50%;
+    right: 0%;
+  }
+
+  .footer-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    .footer-social {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      scale: 0.8;
+    }
+    .footer__title {
+      text-align: center;
+      color: $L;
+    }
+  }
+}
 </style>
 
 <script setup></script>

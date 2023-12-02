@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   border-bottom: 2px solid $D;
   padding: 10px;
 }
@@ -75,6 +75,13 @@
 .link_router:hover::before {
   width: 50%;
   right: 0%;
+}
+
+@media screen and (max-width: 1023px) {
+  .header-link {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 </style>
 

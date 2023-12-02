@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   border-bottom: 2px solid $D;
   padding: 10px;
 }
@@ -76,6 +76,8 @@
   width: 50%;
   right: 0%;
 }
+
+
 </style>
 
 <script setup></script>

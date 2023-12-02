@@ -49,8 +49,7 @@
             v-model="selectedOption"
             required
             id="input4"
-            @focus="addShadow"
-            @blur="removeShadow"
+           
           >
             <option class="" value="option" disabled selected>
               Choisissez une option
@@ -69,8 +68,7 @@
           id="textarea"
           name="message"
           v-model="textareaContent"
-          @focus="addShadow"
-          @blur="removeShadow"
+       
         ></textarea>
       </div>
       <div class="form__button">
@@ -162,13 +160,7 @@ const selectedOption = ref("option");
 const isInputFilled = (input) => {
   return input !== "";
 };
-const addShadow = (event) => {
-  event.target.classList.add("shadow");
-};
 
-const removeShadow = (event) => {
-  event.target.classList.remove("shadow");
-};
 
 const input1 = ref("");
 const input2 = ref("");

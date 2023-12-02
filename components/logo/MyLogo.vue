@@ -153,4 +153,34 @@ const className = computed(() => ({
     }
   }
 }
+
+
+@media screen and (max-width: 768px) {
+.logo {
+  width: fit-content;
+
+  cursor: pointer;
+
+  &.-small {
+    svg {
+      width: 60px;
+    }
+  }
+  &.-regular {
+    svg {
+      width: 90px;
+    }
+  }
+  &.-big {
+    svg {
+      width: 120px;
+    }
+  }
+
+
+
+ 
+}
+}
+
 </style>

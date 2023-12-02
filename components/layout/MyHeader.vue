@@ -77,12 +77,7 @@
   right: 0%;
 }
 
-@media screen and (max-width: 1023px) {
-  .header-link {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
+
 </style>
 
 <script setup></script>

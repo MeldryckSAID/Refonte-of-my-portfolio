@@ -5,10 +5,10 @@
         <MyCard
           :id="1"
           titre="MMI Expo"
-          paragraphe="La première édition de l'exposition  au sein du 
-          département MMI de Montbéliard a été organisée dans le but de déconstruire le 
-          stéréotype du 'geek'. Cet événement artistique a été conçu pour démontrer que les 
-          compétences des étudiants ne se limitent pas à l'informatique. Nous vous invitons à découvrir par vous-même 
+          paragraphe="La première édition de l'exposition artistique au sein du 
+          Département MMI de Montbéliard a été organisée afin de déconstruire le 
+          stéréotype du 'geek'. Cet événement a été conçu pour démontrer que leurs 
+          compétences artistiques. Nous vous invitons à découvrir par vous-même 
           la diversité des talents présentés lors de cette exposition."
           image="/png/Expo.png"
           :isReversed="true"
@@ -20,7 +20,7 @@
           :id="2"
           titre="Le défit 24h"
           paragraphe="Le défi 24 heures était un défi plein d'émotion incroyable et intrépide 
-        Pourrez-vous comprendre toute cette complicité ? Le défi 24 heures est un événement phare du département MMI Montbéliard ..."
+        Pourrez-vous comprendre toute cette complicité ? Le défi 24 heures est un événement phare du département MMI Montbéliard."
           image="/png/24h.png"
           buttonLink="/Projets/24h"
         />
@@ -29,8 +29,8 @@
         <MyCard
           :id="3"
           titre="MMI Montbéliard x International"
-          paragraphe="Le département MMI Montbéliard vous offre la possibilité d'aler d'écouvrir l'étranger pendants tout un semestre 
-          laisser nous vous montrez comment vous allez etre convaincu..."
+          paragraphe="Le département MMI Montbéliard vous offre la possibilité d'aller découvrir l'étranger pendant tout un semestre. 
+          laisser nous vous montrez comment vous allez être convaincu."
           image="/png/mobile.png"
           :isReversed="true"
           buttonLink="/Projets/mobile"
@@ -40,9 +40,9 @@
         <MyCard
           :id="2"
           titre="Osaka"
-          paragraphe="Comment convaincre les fidèles comme les nouveaux visiteurs de venir à l’expo universelle 2025 ?
-          Par conséquences réussir à attirer l’attention des visiteurs en créant un événement qui tisse 
-          un lien entre les humains, la nature et la technologie. ..."
+          paragraphe="Comment convaincre les fidèles comme les nouveaux visiteurs de venir à l’exposition universelle 2025 ?
+          Par conséquent réussir à attirer l’attention des visiteurs en créant un événement qui tisse 
+          un lien entre les humains, la nature et la technologie."
           image="/png/rosace.png"
           :isReversed="false"
           buttonLink="/Projets/osaka"
@@ -53,9 +53,9 @@
           :id="2"
           titre="Time2Match"
           paragraphe="Lors de ce projet nous avions pour ambitions de connecter les sportifs et 
-          le sport organiser c'est ce que 
-          nous avons fait en leurs apportant Time2match qui leur permettront de mieux 
-          s'organiser pour leurs séances de sport collectif"
+          le sport organisé c'est ce que 
+          nous avons fait en leur apportant Time2match qui leur permettront de mieux 
+          s'organiser pour leurs séances de sport collectif."
           image="/png/T2M.png"
           :isReversed="true"
           buttonLink="/Projets/T2M"

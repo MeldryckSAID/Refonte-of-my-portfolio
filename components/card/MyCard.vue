@@ -4,7 +4,9 @@
     <div class="card__text">
       <MyTitle el="h5" size="medium">{{ titre }}</MyTitle>
       <p class="">{{ paragraphe }}</p>
-      <Mybutton :to="buttonLink"> En savoir plus </Mybutton>
+      <div class="btn-text">
+        <Mybutton class="" :to="buttonLink"> En savoir plus </Mybutton>
+      </div>
     </div>
   </div>
 </template>
@@ -47,8 +49,14 @@ defineProps({
     padding-left: 20px;
     padding-right: 20px;
     font-family: $secondary-font;
-    text-align: center;
     max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .btn-text {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
 </style>

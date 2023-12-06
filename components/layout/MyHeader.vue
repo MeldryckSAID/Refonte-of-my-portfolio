@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  border-bottom: 2px solid $D;
+  
   padding: 10px;
 }
 .header-link {
@@ -26,7 +26,7 @@
 }
 
 .Logo_header {
-  width: 97.47px;
+  width: 67.47px;
 }
 
 .link_router {

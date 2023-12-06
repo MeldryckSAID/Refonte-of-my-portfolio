@@ -25,7 +25,7 @@ const isReversed = ref(false);
 onMounted(() => {
   setTimeout(() => {
     isReversed.value = true;
-  }, 3000);
+  }, );
 });
 </script>
 

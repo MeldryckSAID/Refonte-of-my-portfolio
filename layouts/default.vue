@@ -77,7 +77,4 @@ onUnmounted(() => {
 footer {
   margin-top: auto;
 }
-
-
-
 </style>

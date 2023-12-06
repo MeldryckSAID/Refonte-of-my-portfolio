@@ -5,7 +5,9 @@
 
   <MyWorks />
 
-  <MyContact />
+  <MyIntroContact/>
+  <MyInfo />
+  <MyForm />
 </template>
 <style lang="scss" scoped></style>
 <script setup>

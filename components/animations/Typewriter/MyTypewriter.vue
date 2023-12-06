@@ -13,7 +13,6 @@ export default {
         "Back",
         "WebDesigner",
         "Click above ",
-        
       ],
       typingSpeed: 100,
       erasingSpeed: 100,
@@ -66,7 +65,8 @@ export default {
 <template>
   <div class="container">
     <h1>
-      Hello world !!! <br> I'm a
+      Hello world !!! <br />
+      I'm a
       <span class="typed-text">{{ typeValue }}</span>
       <span class="blinking-cursor">|</span>
       <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
@@ -84,10 +84,12 @@ export default {
 h1 {
   font-size: 60px;
   font-weight: normal;
-  font-family:$primary-font;
+  text-align: center;
+  font-family: $primary-font;
+
   span.typed-text {
     color: $L;
-    background-color:$D;
+    background-color: $D;
   }
 }
 
@@ -95,6 +97,7 @@ h1 {
 .blinking-cursor {
   font-size: 6rem;
   color: $D;
+
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;

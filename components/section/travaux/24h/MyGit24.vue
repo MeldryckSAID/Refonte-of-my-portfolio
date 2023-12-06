@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Mybutton class="btn-page" @click="ouvrirMiniFenetre()"><slot></slot></Mybutton>
+    <Mybutton class="btn-page" @click="ouvrirMiniFenetre()">Git du Projet</Mybutton>
   </div>
 </template>
 
@@ -9,10 +9,15 @@ export default {
   methods: {
     ouvrirMiniFenetre() {
       // L'URL du site que vous souhaitez ouvrir
-      const url = "https://transcendent-kulfi-b28e20.netlify.app/";
+      const url = "https://github.com/MeldryckSAID/Defi_24h";
 
        window.open(url, "_blank");
     },
   },
 };
 </script>
+<style lang="scss">
+.btn-page{
+  cursor: pointer;
+}
+</style>

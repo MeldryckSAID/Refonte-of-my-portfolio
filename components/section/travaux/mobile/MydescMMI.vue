@@ -1,7 +1,9 @@
 <template>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Descriptif</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Descriptif</h4>
+    </MyTitle>
+  </div>
   <div class="descriptif">
     <div class="img__descriptif">
       <img src="/png/mobile/Mobile_blanc.png" alt="Logo du 24H" />
@@ -30,9 +32,11 @@
       <MyLineAnim2 />
     </div>
   </div>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Univers</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Univers</h4>
+    </MyTitle>
+  </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
     <img
@@ -47,10 +51,11 @@
     />
     <MyWorksAnim2 class="visu2" />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">D'autres éléments</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">D'autres éléments</h4>
+    </MyTitle>
+  </div>
 
   <div class="img__harmonie">
     <img
@@ -64,11 +69,11 @@
       alt="Logo du 24H variant"
     />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Les technologies utilisées</h4>
-  </MyTitle>
-
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Les technologies utilisées</h4>
+    </MyTitle>
+  </div>
   <div class="techno__use">
     <MyTech name="ai" class="tech-item1" />
     <MyTech name="indi" class="tech-item2" />
@@ -77,17 +82,19 @@
     <MyTech name="davinci" class="tech-item4" />
   </div>
 
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Une petite visite ?</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Une petite visite ?</h4>
+    </MyTitle>
+  </div>
 
   <div class="visite">
-    <MyVisiteMMI>Visiter mon behance</MyVisiteMMI>
+    <MyVisiteMMI>Visiter sur behance</MyVisiteMMI>
   </div>
 </template>
 
 <script setup></script>
-<style lang="scss" >
+<style lang="scss">
 .img__descriptif {
   margin-bottom: 5%;
   display: flex;

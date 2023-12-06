@@ -1,7 +1,9 @@
 <template>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Descriptif</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Descriptif</h4>
+    </MyTitle>
+  </div>
   <div class="descriptif">
     <div class="img__descriptif">
       <MyLineAnim3 />
@@ -26,9 +28,11 @@
       <MyLineAnim2 />
     </div>
   </div>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Univers</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Univers</h4>
+    </MyTitle>
+  </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
     <img
@@ -38,11 +42,11 @@
     />
     <MyWorksAnim2 class="visu2" />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">L'harmonie</h4>
-  </MyTitle>
-
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">L'harmonie</h4>
+    </MyTitle>
+  </div>
   <div class="img__harmonie">
     <img
       class="cover"
@@ -66,20 +70,21 @@
       alt="Les styles génériques qui seront utilisé pour le site"
     />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Les technologies utilisées</h4>
-  </MyTitle>
-
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Les technologies utilisées</h4>
+    </MyTitle>
+  </div>
   <div class="tech">
     <MyTech name="ai" class="tech-item2" />
     <MyTech name="ap" class="tech-item3" />
     <MyTech name="figma" class="tech-item4" />
   </div>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Les technologies envisager</h4>
-  </MyTitle>
-
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Les technologies envisager</h4>
+    </MyTitle>
+  </div>
   <div class="tech">
     <MyTech name="html" class="tech-item1" />
     <MyTech name="css" class="tech-item2" />
@@ -87,18 +92,20 @@
     <MyTech name="nuxt" class="tech-item4" />
     <MyTech name="js" class="tech-item7" />
     <MyTech name="vercel" class="tech-item8" />
+    <MyIcon name="gitn" />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Une petite visite ?</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Une petite visite ?</h4>
+    </MyTitle>
+  </div>
   <div class="visite">
     <MyVisiteExpo>Visiter la maquette pc</MyVisiteExpo>
     <MyVisiteExpoM>Visiter la maquette mobile</MyVisiteExpoM>
   </div>
 </template>
 
-<script setup ></script>
+<script setup></script>
 <style lang="scss">
 .img__descriptif {
   margin-bottom: 5%;
@@ -142,9 +149,9 @@
 }
 .tech {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr); /* Trois lignes maintenant */
-  gap: 10px;
+  gap: 20px;
   justify-items: center;
 }
 .visite {

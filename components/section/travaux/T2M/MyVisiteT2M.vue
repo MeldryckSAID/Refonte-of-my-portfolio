@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Mybutton @click="ouvrirMiniFenetre()"><slot></slot></Mybutton>
+    <Mybutton class="btn-page" @click="ouvrirMiniFenetre()"><slot></slot></Mybutton>
   </div>
 </template>
 

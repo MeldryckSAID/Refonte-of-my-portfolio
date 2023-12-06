@@ -1,7 +1,9 @@
 <template>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Descriptif</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Descriptif</h4>
+    </MyTitle>
+  </div>
   <div class="descriptif">
     <div class="img__descriptif">
       <img src="/png/T2M/T2M_logo.png" alt="Logo du T2M" />
@@ -17,9 +19,11 @@
       <MyLineAnim2 />
     </div>
   </div>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Univers</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Univers</h4>
+    </MyTitle>
+  </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
     <img
@@ -29,10 +33,11 @@
     />
     <MyWorksAnim2 class="visu2" />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">L'harmonie</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">L'harmonie</h4>
+    </MyTitle>
+  </div>
 
   <div class="img__harmonie">
     <img class="cover" src="/png/T2M/Couverture.png" alt="Logo du T2M" />
@@ -44,12 +49,13 @@
     <img class="cover" src="/png/T2M/Couleurs.png" alt="Logo du T2M variant" />
   </div>
 
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Les technologies utilisées</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Les technologies utilisées</h4>
+    </MyTitle>
+  </div>
 
   <div class="tech">
-    
     <MyTech name="html" class="tech-item2" />
     <MyTech name="css" class="tech-item3" />
     <MyTech name="firebase" class="tech-item4" />
@@ -57,15 +63,19 @@
     <MyTech name="js" class="tech-item6" />
     <MyTech name="figma" class="tech-item7" />
     <MyTech name="tail" class="tech-item8" />
+    <MyIcon name="gitn" class="tech-item9" />
   </div>
 
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Une petite visite ?</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Une petite visite ?</h4>
+    </MyTitle>
+  </div>
 
   <div class="visite">
     <MyVisiteT2MMaquettePc>Visiter la maquette pc</MyVisiteT2MMaquettePc>
     <MyVisiteT2M>Visiter le site</MyVisiteT2M>
+    <MyGitT2m />
   </div>
 </template>
 

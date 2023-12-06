@@ -1,7 +1,9 @@
 <template>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Descriptif</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Descriptif</h4>
+    </MyTitle>
+  </div>
   <div class="descriptif">
     <div class="img__descriptif">
       <img src="/png/24H/Logo_24_blue.png" alt="Logo du 24H" />
@@ -22,19 +24,21 @@
       <MyLineAnim2 />
     </div>
   </div>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Univers</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Univers</h4>
+    </MyTitle>
+  </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
     <img src="/png/24H/Moodboard24.png" alt="Moodboard du projets" />
     <MyWorksAnim2 class="visu2" />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">L'harmonie</h4>
-  </MyTitle>
-
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">L'harmonie</h4>
+    </MyTitle>
+  </div>
   <div class="img__harmonie">
     <img class="cover" src="/png/24H/Couverture.png" alt="Logo du 24H" />
     <img class="cover" src="/png/24H/Logo24.png" alt="Logo du 24H variant" />
@@ -45,11 +49,11 @@
       alt="Logo du 24H variant"
     />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Les technologies utilisées</h4>
-  </MyTitle>
-
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Les technologies utilisées</h4>
+    </MyTitle>
+  </div>
   <div class="tech">
     <MyTech name="ai" class="tech-item1" />
     <MyTech name="html" class="tech-item2" />
@@ -59,16 +63,19 @@
     <MyTech name="js" class="tech-item6" />
     <MyTech name="figma" class="tech-item7" />
     <MyTech name="tail" class="tech-item8" />
+    <MyIcon name="gitn" class="tech-item9" />
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Une petite visite ?</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Une petite visite ?</h4>
+    </MyTitle>
+  </div>
 
   <div class="visite">
     <MyVisite24MaquettePc>Visiter la maquette pc</MyVisite24MaquettePc>
     <MyVisite24MaquetteM>Visiter la maquette mobile</MyVisite24MaquetteM>
     <MyVisite24>Visiter le site</MyVisite24>
+    <MyGit24/>
   </div>
 </template>
 
@@ -112,8 +119,12 @@
 .tech {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr); /* Trois lignes maintenant */
-  gap: 10px;
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 25px;
   justify-items: center;
+  
+}
+.introT {
+  margin-left: 5%;
 }
 </style>

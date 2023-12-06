@@ -7,10 +7,10 @@
       </MyTitle>
       <h2 class="present__Title">Qui suis je ?</h2>
       <p class="present__text">
-        Pour l’instants un étudiant de Troisièmes année du département MMI
+        Pour l’instant un étudiant de Troisièmes années du département MMI
         Montbéliard et anciens Président du Bureau des Etudiants (BDE) au sein
-        de cette formation j’ai pu acquérir plusieurs compétence et mon
-        portefolio en ai la preuve.
+        de cette formation j’ai pu acquérir plusieurs compétences et mon
+        portfolio en est une preuve.
       </p>
     </div>
     <MyLineAnim2 />

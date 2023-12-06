@@ -1,7 +1,9 @@
 <template>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Descriptif</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Descriptif</h4>
+    </MyTitle>
+  </div>
   <div class="descriptif">
     <div class="img__descriptif">
       <img
@@ -31,10 +33,11 @@
       <MyLineAnim2 />
     </div>
   </div>
-
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">L'harmonie</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">L'harmonie</h4>
+    </MyTitle>
+  </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
     <div class="harmo">
@@ -60,14 +63,17 @@
     <MyWorksAnim2 class="visu2" />
   </div>
 
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Résultat</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Résultat</h4>
+    </MyTitle>
+  </div>
 
   <div class="affiche">
     <MyTitle el="h5" size="medium">
       <h4 class="intro__section">Affiche</h4>
     </MyTitle>
+
     <div class="affiche-item">
       <img
         class="affiche-image"
@@ -95,6 +101,7 @@
     <MyTitle el="h5" size="medium">
       <h4 class="intro__section">Cartes Postales</h4>
     </MyTitle>
+
     <div class="affiche-item">
       <img
         class="affiche-image"
@@ -118,9 +125,11 @@
       />
     </div>
   </div>
-  <MyTitle el="h4" size="large">
-    <h4 class="intro__section">Les technologies utilisées</h4>
-  </MyTitle>
+  <div class="introT">
+    <MyTitle el="h4" size="large">
+      <h4 class="intro__section">Les technologies utilisées</h4>
+    </MyTitle>
+  </div>
   <div class="tech">
     <MyTech name="ai" class="tech-item1" />
     <MyTech name="figma" class="tech-item3" />

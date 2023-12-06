@@ -14,7 +14,7 @@
       <MyLineAnim1 />
       <p class="text">
         Le défi 24 heures était une aventure pleine d'émotions incroyables et
-        intrépides, destinée aux étudiants les plus audacieux et studieux de
+        intrépides. Destinée aux étudiants les plus audacieux et studieux de
         notre formation. Cet événement majeur du département MMI Montbéliard
         rassemble toutes les promotions actuelles de la formation. À l'occasion
         des 25 ans du département, il a été exceptionnellement ouvert aux

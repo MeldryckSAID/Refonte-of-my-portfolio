@@ -13,15 +13,15 @@
     <div class="text__descriptif">
       <MyLineAnim1 />
       <p class="text">
-        Le défi 24 heures était un défi plein d'émotion incroyable et intrépide
-        fait pour les plus intépides , les plus studieux des étudiants de notre
-        formation. Le défi 24 heures est un événement phare du département MMI
-        Montbéliard qui reuni toutes les promotions présente de la formations, a
-        l'occasion des 25 ans du départements cette fois ci il a été ouvert aux
-        anciens leurs permettants de revenir vivre les années de leurs
-        jeunesses.
+        Le défi 24 heures était une aventure pleine d'émotions incroyables et
+        intrépides, destinée aux étudiants les plus audacieux et studieux de
+        notre formation. Cet événement majeur du département MMI Montbéliard
+        rassemble toutes les promotions actuelles de la formation. À l'occasion
+        des 25 ans du département, il a été exceptionnellement ouvert aux
+        anciens, leur offrant l'opportunité de revivre les années de leur
+        jeunesse.
       </p>
-      <MyLineAnim2 />
+      <MyLineAnim2 class="invisible" />
     </div>
   </div>
   <div class="introT">
@@ -75,7 +75,7 @@
     <MyVisite24MaquettePc>Visiter la maquette pc</MyVisite24MaquettePc>
     <MyVisite24MaquetteM>Visiter la maquette mobile</MyVisite24MaquetteM>
     <MyVisite24>Visiter le site</MyVisite24>
-    <MyGit24/>
+    <MyGit24 />
   </div>
 </template>
 
@@ -102,7 +102,7 @@
 }
 .text {
   font-family: $secondary-font;
-  text-align: center;
+  text-align: left;
   width: 625px;
 }
 .descriptif {
@@ -119,12 +119,15 @@
 .tech {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr);
   gap: 25px;
   justify-items: center;
-  
 }
 .introT {
   margin-left: 5%;
+}
+.invisible {
+  opacity: 0;
+  
 }
 </style>

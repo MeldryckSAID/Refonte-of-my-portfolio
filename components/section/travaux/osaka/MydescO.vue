@@ -22,13 +22,14 @@
     <div class="text__descriptif">
       <MyLineAnim1 />
       <p class="text">
-        Comment convaincre les fidèles comme les nouveaux visiteurs de venir à
-        l’expo universelle 2025 ? Par conséquences réussir à attirer l’attention
-        des visiteurs en créant un événement qui tisse un lien entre les
-        humains, la nature et la technologie. Le tout en offrant une nouvelle
-        communication pour tout public qui conserve la fidélisation des
-        visiteurs des années passées. Nous devions effectuer cette campagne sur
-        des formats d'affiche et de carte postale.
+        Comment convaincre à la fois les fidèles visiteurs et les nouveaux venus
+        de participer à l'Expo Universelle 2025 ? Il s'agit de réussir à
+        captiver l'attention des visiteurs en créant un événement qui tisse des
+        liens entre les humains, la nature et la technologie. Tout cela tout en
+        offrant une nouvelle communication pour le grand public tout en
+        conservant la fidélisation des visiteurs des années précédentes. Nous
+        devions déployer cette campagne à travers des formats d'affiche et de
+        carte postale.
       </p>
       <MyLineAnim2 />
     </div>
@@ -167,7 +168,7 @@
 }
 .text {
   font-family: $secondary-font;
-  text-align: center;
+  text-align: left;
   width: 625px;
 }
 .descriptif {

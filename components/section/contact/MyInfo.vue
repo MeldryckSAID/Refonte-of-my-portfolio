@@ -2,12 +2,12 @@
   <div class="section__info">
     <div class="info__text">
       <p>
-        Envie de collaborer avec moi , un jeune  web développeur,
-        Webdesigner? Envoyez moi un message !Votre projet compte pour moi.
-        Retrouvez moi aussi sur:
+        Intéressé(e) par une collaboration avec un jeune web développeur et
+        webdesigner ? N'hésitez pas à m'envoyer un message ! Votre projet est
+        important pour moi. Vous pouvez également me retrouver sur :
       </p>
       <p>
-        Ou contactez moi directement au
+        Ou contactez-moi directement au 
         <a class="link" href="tel:+33772428966">+33 7 72 42 89 66</a>
       </p>
     </div>
@@ -18,7 +18,9 @@
       <a href="https://www.linkedin.com/in/meldryck-said/">
         <MyIcon name="linkedinn"></MyIcon
       ></a>
-    <a href="/CV_MELDRYCK_SAID.pdf" download> <Mybutton> Mon Cv juste ici</Mybutton></a>
+      <a href="/CV_MELDRYCK_SAID.pdf" download>
+        <Mybutton> Mon Cv juste ici</Mybutton></a
+      >
     </div>
   </div>
 </template>

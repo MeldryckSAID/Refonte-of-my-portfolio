@@ -2,14 +2,16 @@
   <div class="section__presentation">
     <MyLineAnim1 />
     <div class="present">
-      
       <MyTypewriter />
 
       <p class="present__text">
-        Pour l’instant un étudiant de troisièmes année du département MMI
-        Montbéliard et ancien Président du Bureau des Etudiants (BDE) au sein
-        de cette formation j’ai pu acquérir plusieurs compétences et mon
-        portfolio en est une preuve.
+        Actuellement étudiant en BUT (Brevet Universitaire de Technologie), en
+        troisième année du département Métiers du Multimédia et de l'Internet
+        (MMI) à Montbéliard, avec un parcours en développement web et
+        dispositifs interactifs, et ancien Président du Bureau des Étudiants
+        (BDE) au sein de cette formation, cette expérience m'a permis d'acquérir
+        diverses compétences à travers les trois pôles : communication, design
+        et développement, comme en témoigne mon portfolio.
       </p>
     </div>
     <MyLineAnim2 />

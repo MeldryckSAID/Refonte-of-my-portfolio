@@ -7,12 +7,12 @@ export default {
       typeStatus: false,
       displayTextArray: [
         "Meldryck SAÏD",
-        "Stutent",
-        "Developer",
-        "Front",
-        "Back",
+        " aussi",
+        "étudiant",
+        "Developer-front",
+        "Developer-Back",
         "WebDesigner",
-        "Click above ",
+       
       ],
       typingSpeed: 100,
       erasingSpeed: 100,
@@ -66,7 +66,7 @@ export default {
   <div class="container">
     <h1>
       Hello world !!! <br />
-      I'm a
+      Je suis
       <span class="typed-text">{{ typeValue }}</span>
       <span class="blinking-cursor">|</span>
       <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>

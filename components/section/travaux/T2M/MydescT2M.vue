@@ -11,12 +11,16 @@
     <div class="text__descriptif">
       <MyLineAnim1 />
       <p class="text">
-        Lors de ce projet nous avions pour ambitions de connecter les sportifs
-        et le sport organiser c'est ce que nous avons fait en leurs apportant
-        Time2match qui leur permettront de mieux s'organiser pour leurs séances
-        de sport collectif
+        Lors de ce projet, notre ambition était de renforcer la connexion entre
+        les sportifs et le sport organisé, en mettant en place Time2match. Cette
+        plateforme novatrice a été conçue pour offrir aux amateurs de sport
+        collectif une solution complète. Elle facilite non seulement
+        l'organisation de leurs séances, mais favorise également la cohésion au
+        sein des équipes. Grâce à Time2match, les sportifs peuvent planifier
+        efficacement leurs sessions de sport collectif, renforçant ainsi
+        l'esprit d'équipe et l'expérience sportive collective.
       </p>
-      <MyLineAnim2 />
+      <MyLineAnim2 class="invisible" />
     </div>
   </div>
   <div class="introT">
@@ -105,7 +109,7 @@
 }
 .text {
   font-family: $secondary-font;
-  text-align: center;
+  text-align: left;
   width: 625px;
 }
 .descriptif {
@@ -125,5 +129,12 @@
   grid-template-rows: repeat(2, 1fr); /* Trois lignes maintenant */
   gap: 10px;
   justify-items: center;
+}
+
+.invisible {
+  opacity: 0;
+  svg {
+    opacity: 0;
+  }
 }
 </style>

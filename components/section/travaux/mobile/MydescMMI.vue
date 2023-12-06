@@ -12,22 +12,21 @@
     <div class="text__descriptif">
       <MyLineAnim1 />
       <p class="text">
-        Notre travail a commencé par une analyse de la stratégie de
-        communication existante du département et la mise en œuvre d'un audit
-        SEO. Cet audit a été suivi de recommandations stratégiques et d'une
-        nouvelle stratégie de médias sociaux. Suite à ce travail de
-        communication, nous avons pu aborder la partie design du projet, avec
-        notamment la refonte du logo de la variante internationale de MMI, la
-        création d'une identité graphique (web et print), d'une charte graphique
-        sous forme de brandboard (web et print), d'affiches et de cartes
-        postales (web et print), et d'un wireframe de la page d'accueil du site
-        web pour proposer les nouvelles fonctionnalités envisagées suite à nos
-        études de communication. Nous sommes ensuite passés à la production de
-        contenu, plus précisément de posts visuels et de vidéos pour nos
-        différents réseaux sociaux. Pour les vidéos, nous avons dû les tourner,
-        les doubler et les monter. Enfin, nous avons pu présenter nos différents
-        contenus sur Behance, avec des explications pour justifier nos choix
-        pour chacun d'entre eux. Traduit avec DeepL.com (version gratuite)
+        Notre travail a débuté par une analyse de la stratégie de communication
+        existante du département, suivi de la mise en œuvre d'un audit SEO. Cet
+        audit a engendré des recommandations stratégiques et l'élaboration d'une
+        nouvelle stratégie pour les médias sociaux. Après cette phase de
+        communication, nous avons abordé la conception du projet, incluant la
+        refonte du logo de la variante internationale de MMI, la création d'une
+        identité graphique (web et print), d'une charte graphique sous forme de
+        brandboard (web et print), d'affiches et de cartes postales (web et
+        print), ainsi que la création d'un wireframe pour la page d'accueil du
+        site web, proposant de nouvelles fonctionnalités issues de nos études en
+        communication. Nous avons ensuite entamé la production de contenu,
+        incluant des posts visuels et des vidéos pour nos différents réseaux
+        sociaux. Pour les vidéos, nous avons dû les tourner, les doubler et les
+        monter. Enfin, nous avons présenté nos divers contenus sur Behance,
+        accompagnés d'explications justifiant nos choix pour chacun d'entre eux.
       </p>
       <MyLineAnim2 />
     </div>
@@ -118,7 +117,7 @@
 }
 .text {
   font-family: $secondary-font;
-  text-align: center;
+  text-align: left;
   width: 625px;
 }
 .descriptif {

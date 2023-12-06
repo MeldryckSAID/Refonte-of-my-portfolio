@@ -9,10 +9,10 @@
     <MyTitle el="h2" size="large"><h2>Site en maintenance</h2></MyTitle>
 
     <p>
-      Je travaille actuellement sur cette portions du site. Le contenu n'est pas
-      encore disponible. Veuillez consulter le site en version PC .
+      Je travaille actuellement sur cette partie du site. Le contenu n'est pas
+      encore disponible. Veuillez consulter le site en version PC.
     </p>
-    <p>A très vite</p>
+    <p>A très vite !</p>
   </div>
 </template>
 
@@ -31,6 +31,4 @@
     }
   }
 }
-
-
 </style>

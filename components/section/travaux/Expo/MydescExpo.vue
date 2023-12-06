@@ -18,14 +18,14 @@
       <p class="text">
         La première édition de l'exposition au sein du département MMI de
         Montbéliard a été organisée dans le but de déconstruire le stéréotype du
-        'geek'. En effet nos camarades étudiants etudies différents matiere avec
-        3 poles premiers chacun on un aspects bien a eux "La Communication", "Le
-        Dévelloppement Web" et le "Design numérique" Cet événement artistique a
-        été conçu pour démontrer que les compétences de nos étudiants ne se
-        limitent pas qu'a l'informatique. Nous vous invitons à découvrir par
-        vous-même la diversité des talents présentés lors de cette exposition.
+        'geek'. En effet, nos camarades étudiants étudient différentes matières
+        avec trois pôles distincts : "La Communication", "Le Développement Web"
+        et le "Design numérique". Cet événement artistique a été conçu pour
+        démontrer que les compétences de nos étudiants ne se limitent pas qu'à
+        l'informatique. Nous vous invitons à découvrir par vous-même la
+        diversité des talents présentés lors de cette exposition.
       </p>
-      <MyLineAnim2 />
+      <MyLineAnim2 class="invisible" />
     </div>
   </div>
   <div class="introT">
@@ -133,7 +133,7 @@
 }
 .text {
   font-family: $secondary-font;
-  text-align: center;
+ text-align: left;
   width: 625px;
 }
 .descriptif {

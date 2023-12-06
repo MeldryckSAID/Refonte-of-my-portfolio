@@ -73,7 +73,7 @@
       </div>
       <div class="form__button">
         <button class="buttof" libelle="Send" type="submit">
-          <Mybutton>Send</Mybutton>
+          <Mybutton>Envoyez</Mybutton>
         </button>
       </div>
     </form>

@@ -2,12 +2,12 @@
   <div class="section__info">
     <div class="info__text">
       <p>
-        Envie de collaborer avec moi , un jeune et talentueux Web développer,
+        Envie de collaborer avec moi , un jeune  web développeur,
         Webdesigner? Envoyez moi un message !Votre projet compte pour moi.
-        Retrouver moi aussi sur:
+        Retrouvez moi aussi sur:
       </p>
       <p>
-        Ou contacter moi directement au
+        Ou contactez moi directement au
         <a class="link" href="tel:+33772428966">+33 7 72 42 89 66</a>
       </p>
     </div>

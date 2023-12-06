@@ -18,7 +18,7 @@
       <div class="section_travaux--2">
         <MyCard
           :id="2"
-          titre="Le défit 24h"
+          titre="Le défi 24h"
           paragraphe="Le défi 24 heures était un défi plein d'émotion incroyable et intrépide 
         Pourrez-vous comprendre toute cette complicité ? Le défi 24 heures est un événement phare du département MMI Montbéliard."
           image="/png/24h.png"

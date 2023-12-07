@@ -6,8 +6,8 @@
   </div>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/24H/Logo_24_blue.png" alt="Logo du 24H" />
-      <img src="/png/24H/Logo_24_white.png" alt="Logo du 24H variant" />
+      <img src="/png/24H/Logo_24_blue.webp" alt="Logo du 24H" />
+      <img src="/png/24H/Logo_24_white.webp" alt="Logo du 24H variant" />
     </div>
 
     <div class="text__descriptif">
@@ -31,7 +31,7 @@
   </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
-    <img src="/png/24H/Moodboard24.png" alt="Moodboard du projets" />
+    <img src="/png/24H/Moodboard24.webp" alt="Moodboard du projets" />
     <MyWorksAnim2 class="visu2" />
   </div>
   <div class="introT">
@@ -40,12 +40,12 @@
     </MyTitle>
   </div>
   <div class="img__harmonie">
-    <img class="cover" src="/png/24H/Couverture.png" alt="Logo du 24H" />
-    <img class="cover" src="/png/24H/Logo24.png" alt="Logo du 24H variant" />
-    <img class="cover" src="/png/24H/Couleurs.png" alt="Logo du 24H variant" />
+    <img class="cover" src="/png/24H/Couverture.webp" alt="Logo du 24H" />
+    <img class="cover" src="/png/24H/Logo24.webp" alt="Logo du 24H variant" />
+    <img class="cover" src="/png/24H/Couleurs.webp" alt="Logo du 24H variant" />
     <img
       class="cover"
-      src="/png/24H/Typographie.png"
+      src="/png/24H/Typographie.webp"
       alt="Logo du 24H variant"
     />
   </div>

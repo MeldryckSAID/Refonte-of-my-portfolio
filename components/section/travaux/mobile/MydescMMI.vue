@@ -6,8 +6,8 @@
   </div>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/mobile/Mobile_blanc.png" alt="Logo du 24H" />
-      <img src="/png/mobile/Mobile_noir.png" alt="Logo du 24H variant" />
+      <img src="/png/mobile/Mobile_blanc.webp" alt="Logo du 24H" />
+      <img src="/png/mobile/Mobile_noir.webp" alt="Logo du 24H variant" />
     </div>
     <div class="text__descriptif">
       <MyLineAnim1 />
@@ -40,12 +40,12 @@
     <MyWorksAnim2 class="visu1" />
     <img
       class="mood-img"
-      src="/png/mobile/Affiche_v1.jpg"
+      src="/png/mobile/Affiche_v1.webp"
       alt="Premier design de l'affiche MMI Montbéliard intenational "
     />
     <img
       class="mood-img"
-      src="/png/mobile/Affiche_v2.png"
+      src="/png/mobile/Affiche_v2.webp"
       alt="Second design de l'affiche MMI Montbéliard intenational "
     />
     <MyWorksAnim2 class="visu2" />
@@ -59,13 +59,13 @@
   <div class="img__harmonie">
     <img
       class="cover"
-      src="/png/mobile/Carte_Postale_v1-1.png"
-      alt="Logo du 24H"
+      src="/png/mobile/Carte_Postale_v1-1.webp"
+      alt="Carte_Postale"
     />
     <img
       class="cover"
-      src="/png/mobile/Carte_Postale_v1-2.png"
-      alt="Logo du 24H variant"
+      src="/png/mobile/Carte_Postale_v1-2.webp"
+      alt="Carte_Postale dos"
     />
   </div>
   <div class="introT">

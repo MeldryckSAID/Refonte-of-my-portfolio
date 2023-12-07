@@ -25,7 +25,7 @@
         Comment convaincre à la fois les fidèles visiteurs et les nouveaux venus
         de participer à l'Expo Universelle 2025 ? Il s'agit de réussir à
         captiver l'attention des visiteurs en créant un événement qui tisse des
-        liens entre les humains, la nature et la technologie. Tout cela tout en
+        liens entre les humains, la nature et la technologie. Tout cela en
         offrant une nouvelle communication pour le grand public tout en
         conservant la fidélisation des visiteurs des années précédentes. Nous
         devions déployer cette campagne à travers des formats d'affiche et de

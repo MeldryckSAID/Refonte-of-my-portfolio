@@ -18,7 +18,7 @@
             titre="MMI Expo"
             paragraphe="La première édition de l'exposition artistique au sein du 
           Département MMI de Montbéliard a été organisée afin de déconstruire le 
-          stéréotype du 'geek'. Cet événement a été conçu pour démontrer que leurs 
+          stéréotype du 'geek'. Cet événement a été conçu pour démontrer leurs 
           compétences artistiques. Nous vous invitons à découvrir par vous-même 
           la diversité des talents présentés lors de cette exposition."
             image="/png/Expo.png"
@@ -30,7 +30,7 @@
           <MyCard
             id="2"
             titre="Le défi 24h"
-            paragraphe="Le défi 24 heures était un défi plein d'émotion incroyable et intrépide 
+            paragraphe="Le défi 24 heures était un défi plein d'émotions incroyables et intrépides 
         Pourrez-vous comprendre toute cette complicité ? Le défi 24 heures est un événement phare du département MMI Montbéliard."
             image="/png/24h.png"
             buttonLink="/Projets/24h"
@@ -41,7 +41,7 @@
             id="3"
             titre="MMI Montbéliard x International"
             paragraphe="Le département MMI Montbéliard vous offre la possibilité d'aller découvrir l'étranger pendant tout un semestre. 
-          laisser nous vous montrez comment vous allez être convaincu."
+          laissez nous vous montrer comment vous allez être convaincu."
             image="/png/mobile.png"
             :isReversed="true"
             buttonLink="/Projets/mobile"
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="more">
-      <Mybutton to="/Projets">Voir tous les projet</Mybutton>
+      <Mybutton to="/Projets">Voir tous les projets</Mybutton>
     </div>
   </div>
 </template>

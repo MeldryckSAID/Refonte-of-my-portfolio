@@ -6,7 +6,7 @@
   </div>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/T2M/T2M_logo.png" alt="Logo du T2M" />
+      <img src="/png/T2M/T2M_logo.webp" alt="Logo du T2M" />
     </div>
     <div class="text__descriptif">
       <MyLineAnim1 />
@@ -32,7 +32,7 @@
     <MyWorksAnim2 class="visu1" />
     <img
       class="mood-img"
-      src="/png/T2M/Moodboard.png"
+      src="/png/T2M/Moodboard.webp"
       alt="Moodboard du projet Time2Match"
     />
     <MyWorksAnim2 class="visu2" />
@@ -44,13 +44,13 @@
   </div>
 
   <div class="img__harmonie">
-    <img class="cover" src="/png/T2M/Couverture.png" alt="Logo du T2M" />
+    <img class="cover" src="/png/T2M/Couverture.webp" alt="Logo du T2M" />
     <img
       class="cover"
-      src="/png/T2M/Typographies.png"
+      src="/png/T2M/Typographies.webp"
       alt="Logo du T2M variant"
     />
-    <img class="cover" src="/png/T2M/Couleurs.png" alt="Logo du T2M variant" />
+    <img class="cover" src="/png/T2M/Couleurs.webp" alt="Logo du T2M variant" />
   </div>
 
   <div class="introT">

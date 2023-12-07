@@ -6,15 +6,15 @@
   </div>
   <div class="descriptif">
     <div class="img__descriptif">
-      <img src="/png/24H/Logo_24_blue.png" alt="Logo du 24H" />
-      <img src="/png/24H/Logo_24_white.png" alt="Logo du 24H variant" />
+      <img src="/png/24H/Logo_24_blue.webp" alt="Logo du 24H" />
+      <img src="/png/24H/Logo_24_white.webp" alt="Logo du 24H variant" />
     </div>
 
     <div class="text__descriptif">
       <MyLineAnim1 />
       <p class="text">
         Le défi 24 heures était une aventure pleine d'émotions incroyables et
-        intrépides, destinée aux étudiants les plus audacieux et studieux de
+        intrépides. Destinée aux étudiants les plus audacieux et studieux de
         notre formation. Cet événement majeur du département MMI Montbéliard
         rassemble toutes les promotions actuelles de la formation. À l'occasion
         des 25 ans du département, il a été exceptionnellement ouvert aux
@@ -31,7 +31,7 @@
   </div>
   <div class="mood">
     <MyWorksAnim2 class="visu1" />
-    <img src="/png/24H/Moodboard24.png" alt="Moodboard du projets" />
+    <img src="/png/24H/Moodboard24.webp" alt="Moodboard du projets" />
     <MyWorksAnim2 class="visu2" />
   </div>
   <div class="introT">
@@ -40,12 +40,12 @@
     </MyTitle>
   </div>
   <div class="img__harmonie">
-    <img class="cover" src="/png/24H/Couverture.png" alt="Logo du 24H" />
-    <img class="cover" src="/png/24H/Logo24.png" alt="Logo du 24H variant" />
-    <img class="cover" src="/png/24H/Couleurs.png" alt="Logo du 24H variant" />
+    <img class="cover" src="/png/24H/Couverture.webp" alt="Logo du 24H" />
+    <img class="cover" src="/png/24H/Logo24.webp" alt="Logo du 24H variant" />
+    <img class="cover" src="/png/24H/Couleurs.webp" alt="Logo du 24H variant" />
     <img
       class="cover"
-      src="/png/24H/Typographie.png"
+      src="/png/24H/Typographie.webp"
       alt="Logo du 24H variant"
     />
   </div>
